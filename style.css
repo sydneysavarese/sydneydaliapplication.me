@@ -1,0 +1,79 @@
+.image-with-text {
+    display: flex;
+    align-items: center;
+}
+
+.image-with-text img {
+    width: 100px;
+    margin-right: 10px;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.custom-font {
+    font-family: Bebas Neue, Arial, sans-serif;
+}
+
+.outlined-text {
+    color: white; /* Set the text color */
+    text-shadow: 
+        -2px -2px 0 black,  
+         2px -2px 0 black,
+        -2px  2px 0 black,
+         2px  2px 0 black; /* Create the white outline */
+}
+
+.outlined-black {
+    color: black; /* Set the text color */
+    text-shadow: 
+        -1px -1px 0 white,  
+         1px -1px 0 white,
+        -1px  1px 0 white,
+         1px  1px 0 white; /* Create the white outline */
+}
+.bigger-header {
+    font-size: 64px; /* Adjust the font size as needed */
+}
+
+
+
+.right-align {
+    text-align: right;
+}
+
+.bigger-body {
+    font-size: 24px;
+    font-family: 'Source Sans Pro'
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns with equal width */
+    grid-template-rows: repeat(3, auto); /* Three rows with height determined by content */
+    /*gap: 10px; /* Gap between grid items */
+}
+
+.grid-item {
+    overflow: hidden; /* Hide overflowing content */
+}
+
+.grid-item img {
+    width: 100%; /* Ensure the image fills the grid item */
+    height: 500px; /* Maintain aspect ratio */
+    display: block; /* Remove any default inline spacing */
+}
+
+.right-align img {
+    margin-left: auto; /* Right-align only the first image */
+}
+
+
+.grid-container_text {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Two columns with equal width */
+    grid-template-rows: auto; /*Three rows with height determined by content */ 
+    gap: 10px; /* Gap between grid items */
+}
+
